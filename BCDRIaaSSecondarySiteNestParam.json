@@ -7,7 +7,7 @@
         "defaultValue": "_blank",
         "minLength": 0
       },
-      "Username": {
+      "name": {
         "type": "string",
         "defaultValue": "mcwadmin",
         "minLength": 1
@@ -33,7 +33,7 @@
     "WEBAVSETName": "WEBAVSET",
     "SQLAVSETName": "SQLAVSET",
     "SQLVM3Name": "SQLVM3",
-    "SQLVM3AdminUserName": "[variables('Username')]",
+    "SQLVM3AdminUserName": "[variables('name')]",
     "SQLVM3AdminPassword": "[variables('Password')]",
     "SQLVM3ImagePublisher": "MicrosoftSQLServer",
     "SQLVM3ImageOffer": "SQL2017-WS2016",
